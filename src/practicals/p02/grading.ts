@@ -14,7 +14,7 @@ console.log("Grade is C");
 console.log("Grade is D");
 }else if (score >= 49) {
 console.log("Grade is F");
-}else {
+}else if (score >= 0) {
 console.log("Grade is F");
 }
 
