@@ -1,7 +1,10 @@
 // Write your code below
 const grade = Number(process.argv[2]);
 
-if (80 >= grade) {
+if (grade < 0 || grade > 100)
+    {
+      console.log("Invalid input");
+    }else if (80 >= grade) {
   console.log("A");
 } else if (79 >= grade) 
 {
@@ -15,7 +18,4 @@ if (80 >= grade) {
 } else if (49 >= grade) 
 {
   console.log("F");
-} else if (grade < 0 || grade > 100)
-{
-  console.log("Invalid input");
-} 
+}
