@@ -5,13 +5,14 @@ if (score < 0 || score > 100) {
     console.log("Invalid input");
 }
 if (score >= 80) {
-console.log("A");
+console.log("Grade is A");
 } else if (score >= 79) {
-console.log("B");
+console.log("Grade is B");
 } else if (score >= 69) {
-console.log("C");
+console.log("Grade is C");
 } else if (score >= 59) {
-console.log("D");
+console.log("Grade is D");
 }else if (score >= 49) {
-console.log("F");
+console.log("Grade is F");
 }
+
